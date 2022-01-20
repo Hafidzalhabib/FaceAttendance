@@ -44,7 +44,7 @@ def fix():
         global encodeListKnown
         encodeListKnown = baru
     latih(latihWajah())
-    intructions.config(text="Sistem telah siap untuk digunakan")
+    intructions.config(text="Sistem telah siap untuk digunakan", font=("Roboto",25),fg="white",bg="#013880", wraplength= 500)
     terimakasih.config(text="")
     absen.config(text="")
 
